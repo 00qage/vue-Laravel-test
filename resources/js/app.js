@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -29,17 +28,17 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  */
 
 const app2 = new Vue({
-    el: '#app2'
+  el: '#app2'
 });
 
 var app = new Vue({
-    el: '#app',
-    data: {
-      text: '',
-      textarea: '',
-      checkbox1: false,
-      checkboxArray: [],
-      singleRadio: '',
-      selected: '',
-    },
-  });
+  el: '#app',
+  data: {
+    text: '',
+    textarea: '',
+    checkbox1: false,
+    checkboxArray: [],
+    singleRadio: '',
+    selected: '',
+  },
+});
